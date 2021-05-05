@@ -1,2 +1,2 @@
 # sandbox-github-actions
-Test repository for github actions.
+GitHub Actions sandbox repository.
