@@ -1,0 +1,19 @@
+{
+  "description": "GitHub Actions sandbox repository.",
+  "engines": {
+    "node": ">= 14",
+    "npm": ">= 7"
+  },
+  "files": [
+    "package.json",
+    "README.md"
+  ],
+  "homepage": "https://github.com/ridedott/sandbox-github-actions#readme",
+  "license": "UNLICENSED",
+  "name": "@ridedott/sandbox-github-actions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridedott/sandbox-github-actions.git"
+  },
+  "version": "0.0.1"
+}

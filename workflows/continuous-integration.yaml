@@ -1,0 +1,24 @@
+name: Continuous Integration
+
+on:
+  pull_request_target:
+    types: [edited, opened, synchronize]
+
+
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Test
+        run: |
+          echo "${{ github.event.pull_request.head.sha }}"
+          echo "${{ github.sha }}"
+          echo "$GITHUB_SHA"
+          ls -al
