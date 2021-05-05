@@ -1,2 +1,2 @@
 # sandbox-github-actions
-Test repository for github actions.
+Forked test repository for GitHub actions.
